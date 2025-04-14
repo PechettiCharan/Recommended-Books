@@ -74,9 +74,9 @@ if st.sidebar.button("Recommend Me"):
 
 
 # import data
-books = pd.read_csv('Data/Books.csv')  # books data
-users = pd.read_csv('Data/Users.csv') # Users location and age data
-ratings = pd.read_csv('Data/Ratings.csv') # Users rating data
+books = pd.read_csv('data/Books.csv')  # books data
+users = pd.read_csv('data/Users.csv') # Users location and age data
+ratings = pd.read_csv('data/Ratings.csv') # Users rating data
 
 st.sidebar.title("Data Used")
 
